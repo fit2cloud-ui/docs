@@ -2773,11 +2773,10 @@ __webpack_require__.r(__webpack_exports__);
       attributes: _attributes__WEBPACK_IMPORTED_MODULE_1__["default"],
       comList: [{
         title: "基本用法",
-        titleDesc: "基础的表格展示用法。",
-        component: "BaseTable",
-        description: "\u4E0Eel-table\u4E00\u81F4"
+        titleDesc: "继承el-table的功能，增加选列功能，选列功能请看下一节",
+        component: "BaseTable"
       }, {
-        title: "选列",
+        title: "表格选列",
         titleDesc: "给columns赋值则开启选列功能，选择显示或隐藏某些列",
         component: "SelectColumn",
         description: "\u5EFA\u8BAE\u4E0ETableColumnSelect\u4E00\u8D77\u4F7F\u7528\u3002\u8BBE\u7F6Efix\u5C5E\u6027\u6216\u8005type\u5C5E\u6027\u4E3Aselection/index/expand\u7684\u5217\u4E0D\u53EF\u9009\u62E9\u663E\u9690\uFF0C\u8BBE\u7F6E:show=\"false\"\u7684\u5217\uFF0C\u9ED8\u8BA4\u9690\u85CF"
@@ -2787,9 +2786,9 @@ __webpack_require__.r(__webpack_exports__);
         component: "SaveSelectColumn"
       }, {
         title: "操作列",
-        titleDesc: "TableOperations: 按钮过多自动折叠，提供选列功能，控制显隐或禁用",
+        titleDesc: "TableOperations: 按钮自动折叠，提供选列功能，控制显隐或禁用",
         component: "TableOperationsDemo",
-        description: "\u63A7\u5236\u53F0\u67E5\u770Bclick\u4E8B\u4EF6"
+        description: "\u4F20\u5165columns\u5219\u663E\u793A\u9009\u5217\u6309\u94AE\u3002\u63A7\u5236\u53F0\u67E5\u770B\u6309\u94AE\u7684click\u4E8B\u4EF6"
       }]
     };
   },

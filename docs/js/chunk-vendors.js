@@ -40,6 +40,34 @@ function _classCallCheck(instance, Constructor) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/createClass.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/createClass.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _createClass; });
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js":
 /*!******************************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js ***!
@@ -5912,7 +5940,7 @@ module.exports = {
 
 var userAgent = __webpack_require__(/*! ../internals/engine-user-agent */ "./node_modules/core-js/internals/engine-user-agent.js");
 
-module.exports = /(iphone|ipod|ipad).*applewebkit/i.test(userAgent);
+module.exports = /(?:iphone|ipod|ipad).*applewebkit/i.test(userAgent);
 
 
 /***/ }),
@@ -6109,7 +6137,6 @@ __webpack_require__(/*! ../modules/es.regexp.exec */ "./node_modules/core-js/mod
 var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
 var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
 var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
-var regexpExec = __webpack_require__(/*! ../internals/regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
 var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
 
 var SPECIES = wellKnownSymbol('species');
@@ -6200,7 +6227,7 @@ module.exports = function (KEY, length, exec, sham) {
   ) {
     var nativeRegExpMethod = /./[SYMBOL];
     var methods = exec(SYMBOL, ''[KEY], function (nativeMethod, regexp, str, arg2, forceStringMethod) {
-      if (regexp.exec === regexpExec) {
+      if (regexp.exec === RegExp.prototype.exec) {
         if (DELEGATES_TO_SYMBOL && !forceStringMethod) {
           // The native String method already delegates to @@method (this
           // polyfilled function), leasing to infinite recursion.
@@ -7899,9 +7926,6 @@ var stickyHelpers = __webpack_require__(/*! ./regexp-sticky-helpers */ "./node_m
 var shared = __webpack_require__(/*! ./shared */ "./node_modules/core-js/internals/shared.js");
 
 var nativeExec = RegExp.prototype.exec;
-// This always refers to the native implementation, because the
-// String#replace polyfill uses ./fix-regexp-well-known-symbol-logic.js,
-// which loads this file before patching the method.
 var nativeReplace = shared('native-string-replace', String.prototype.replace);
 
 var patchedExec = nativeExec;
@@ -8190,7 +8214,7 @@ var store = __webpack_require__(/*! ../internals/shared-store */ "./node_modules
 (module.exports = function (key, value) {
   return store[key] || (store[key] = value !== undefined ? value : {});
 })('versions', []).push({
-  version: '3.10.0',
+  version: '3.10.1',
   mode: IS_PURE ? 'pure' : 'global',
   copyright: '© 2021 Denis Pushkarev (zloirock.ru)'
 });
@@ -8271,7 +8295,7 @@ module.exports = {
 var userAgent = __webpack_require__(/*! ../internals/engine-user-agent */ "./node_modules/core-js/internals/engine-user-agent.js");
 
 // eslint-disable-next-line unicorn/no-unsafe-regex -- safe
-module.exports = /Version\/10\.\d+(\.\d+)?( Mobile\/\w+)? Safari\//.test(userAgent);
+module.exports = /Version\/10(?:\.\d+){1,2}(?: [\w./]+)?(?: Mobile\/\w+)? Safari\//.test(userAgent);
 
 
 /***/ }),
@@ -10151,6 +10175,27 @@ if (NOT_GENERIC || INCORRECT_NAME) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/modules/es.set.js":
+/*!************************************************!*\
+  !*** ./node_modules/core-js/modules/es.set.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var collection = __webpack_require__(/*! ../internals/collection */ "./node_modules/core-js/internals/collection.js");
+var collectionStrong = __webpack_require__(/*! ../internals/collection-strong */ "./node_modules/core-js/internals/collection-strong.js");
+
+// `Set` constructor
+// https://tc39.es/ecma262/#sec-set-objects
+module.exports = collection('Set', function (init) {
+  return function Set() { return init(this, arguments.length ? arguments[0] : undefined); };
+}, collectionStrong);
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/modules/es.string.iterator.js":
 /*!************************************************************!*\
   !*** ./node_modules/core-js/modules/es.string.iterator.js ***!
@@ -10344,14 +10389,12 @@ var advanceStringIndex = __webpack_require__(/*! ../internals/advance-string-ind
 var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
 var callRegExpExec = __webpack_require__(/*! ../internals/regexp-exec-abstract */ "./node_modules/core-js/internals/regexp-exec-abstract.js");
 var regexpExec = __webpack_require__(/*! ../internals/regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
-var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var stickyHelpers = __webpack_require__(/*! ../internals/regexp-sticky-helpers */ "./node_modules/core-js/internals/regexp-sticky-helpers.js");
 
+var UNSUPPORTED_Y = stickyHelpers.UNSUPPORTED_Y;
 var arrayPush = [].push;
 var min = Math.min;
 var MAX_UINT32 = 0xFFFFFFFF;
-
-// babel-minify transpiles RegExp('x', 'y') -> /x/y and it causes SyntaxError
-var SUPPORTS_Y = !fails(function () { return !RegExp(MAX_UINT32, 'y'); });
 
 // @@split logic
 fixRegExpWellKnownSymbolLogic('split', 2, function (SPLIT, nativeSplit, maybeCallNative) {
@@ -10435,11 +10478,11 @@ fixRegExpWellKnownSymbolLogic('split', 2, function (SPLIT, nativeSplit, maybeCal
       var flags = (rx.ignoreCase ? 'i' : '') +
                   (rx.multiline ? 'm' : '') +
                   (rx.unicode ? 'u' : '') +
-                  (SUPPORTS_Y ? 'y' : 'g');
+                  (UNSUPPORTED_Y ? 'g' : 'y');
 
       // ^(? + rx + ) is needed, in combination with some S slicing, to
       // simulate the 'y' flag.
-      var splitter = new C(SUPPORTS_Y ? rx : '^(?:' + rx.source + ')', flags);
+      var splitter = new C(UNSUPPORTED_Y ? '^(?:' + rx.source + ')' : rx, flags);
       var lim = limit === undefined ? MAX_UINT32 : limit >>> 0;
       if (lim === 0) return [];
       if (S.length === 0) return callRegExpExec(splitter, S) === null ? [S] : [];
@@ -10447,12 +10490,12 @@ fixRegExpWellKnownSymbolLogic('split', 2, function (SPLIT, nativeSplit, maybeCal
       var q = 0;
       var A = [];
       while (q < S.length) {
-        splitter.lastIndex = SUPPORTS_Y ? q : 0;
-        var z = callRegExpExec(splitter, SUPPORTS_Y ? S : S.slice(q));
+        splitter.lastIndex = UNSUPPORTED_Y ? 0 : q;
+        var z = callRegExpExec(splitter, UNSUPPORTED_Y ? S.slice(q) : S);
         var e;
         if (
           z === null ||
-          (e = min(toLength(splitter.lastIndex + (SUPPORTS_Y ? 0 : q)), S.length)) === p
+          (e = min(toLength(splitter.lastIndex + (UNSUPPORTED_Y ? q : 0)), S.length)) === p
         ) {
           q = advanceStringIndex(S, q, unicodeMatching);
         } else {
@@ -10469,7 +10512,7 @@ fixRegExpWellKnownSymbolLogic('split', 2, function (SPLIT, nativeSplit, maybeCal
       return A;
     }
   ];
-}, !SUPPORTS_Y);
+}, UNSUPPORTED_Y);
 
 
 /***/ }),

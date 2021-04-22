@@ -99,9 +99,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _createForOfIteratorHelper(o, allowArrayLike) {
-  var it;
+  var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"];
 
-  if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) {
+  if (!it) {
     if (Array.isArray(o) || (it = Object(_unsupportedIterableToArray_js__WEBPACK_IMPORTED_MODULE_6__["default"])(o)) || allowArrayLike && o && typeof o.length === "number") {
       if (it) o = it;
       var i = 0;
@@ -134,7 +134,7 @@ function _createForOfIteratorHelper(o, allowArrayLike) {
       err;
   return {
     s: function s() {
-      it = o[Symbol.iterator]();
+      it = it.call(o);
     },
     n: function n() {
       var step = it.next();
@@ -6701,6 +6701,7 @@ var shared = __webpack_require__(/*! ../internals/shared-store */ "./node_module
 var sharedKey = __webpack_require__(/*! ../internals/shared-key */ "./node_modules/core-js/internals/shared-key.js");
 var hiddenKeys = __webpack_require__(/*! ../internals/hidden-keys */ "./node_modules/core-js/internals/hidden-keys.js");
 
+var OBJECT_ALREADY_INITIALIZED = 'Object already initialized';
 var WeakMap = global.WeakMap;
 var set, get, has;
 
@@ -6723,6 +6724,7 @@ if (NATIVE_WEAK_MAP) {
   var wmhas = store.has;
   var wmset = store.set;
   set = function (it, metadata) {
+    if (wmhas.call(store, it)) throw new TypeError(OBJECT_ALREADY_INITIALIZED);
     metadata.facade = it;
     wmset.call(store, it, metadata);
     return metadata;
@@ -6737,6 +6739,7 @@ if (NATIVE_WEAK_MAP) {
   var STATE = sharedKey('state');
   hiddenKeys[STATE] = true;
   set = function (it, metadata) {
+    if (objectHas(it, STATE)) throw new TypeError(OBJECT_ALREADY_INITIALIZED);
     metadata.facade = it;
     createNonEnumerableProperty(it, STATE, metadata);
     return metadata;
@@ -7941,7 +7944,7 @@ var UPDATES_LAST_INDEX_WRONG = (function () {
 var UNSUPPORTED_Y = stickyHelpers.UNSUPPORTED_Y || stickyHelpers.BROKEN_CARET;
 
 // nonparticipating capturing group, copied from es5-shim's String#split patch.
-// eslint-disable-next-line regexp/no-assertion-capturing-group, regexp/no-empty-group -- required for testing
+// eslint-disable-next-line regexp/no-assertion-capturing-group, regexp/no-empty-group, regexp/no-lazy-ends -- testing
 var NPCG_INCLUDED = /()??/.exec('')[1] !== undefined;
 
 var PATCH = UPDATES_LAST_INDEX_WRONG || NPCG_INCLUDED || UNSUPPORTED_Y;
@@ -8214,7 +8217,7 @@ var store = __webpack_require__(/*! ../internals/shared-store */ "./node_modules
 (module.exports = function (key, value) {
   return store[key] || (store[key] = value !== undefined ? value : {});
 })('versions', []).push({
-  version: '3.10.1',
+  version: '3.10.2',
   mode: IS_PURE ? 'pure' : 'global',
   copyright: '© 2021 Denis Pushkarev (zloirock.ru)'
 });
@@ -12181,7 +12184,7 @@ var getOrigin = function () {
   var scheme = url.scheme;
   var port = url.port;
   if (scheme == 'blob') try {
-    return new URL(scheme.path[0]).origin;
+    return new URLConstructor(scheme.path[0]).origin;
   } catch (error) {
     return 'null';
   }

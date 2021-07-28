@@ -1,16 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[33],{
 
-/***/ "./examples/pages/tabs/examples/AddCloseTab.vue":
-/*!******************************************************!*\
-  !*** ./examples/pages/tabs/examples/AddCloseTab.vue ***!
-  \******************************************************/
+/***/ "./examples/pages/table/examples/TablePaginationDemo.vue":
+/*!***************************************************************!*\
+  !*** ./examples/pages/table/examples/TablePaginationDemo.vue ***!
+  \***************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _AddCloseTab_vue_vue_type_template_id_37b16886_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AddCloseTab.vue?vue&type=template&id=37b16886&scoped=true& */ "./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=template&id=37b16886&scoped=true&");
-/* harmony import */ var _AddCloseTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AddCloseTab.vue?vue&type=script&lang=js& */ "./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=script&lang=js&");
+/* harmony import */ var _TablePaginationDemo_vue_vue_type_template_id_368365d9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TablePaginationDemo.vue?vue&type=template&id=368365d9& */ "./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=template&id=368365d9&");
+/* harmony import */ var _TablePaginationDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TablePaginationDemo.vue?vue&type=script&lang=js& */ "./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -20,73 +20,70 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _AddCloseTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _AddCloseTab_vue_vue_type_template_id_37b16886_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _AddCloseTab_vue_vue_type_template_id_37b16886_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _TablePaginationDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TablePaginationDemo_vue_vue_type_template_id_368365d9___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TablePaginationDemo_vue_vue_type_template_id_368365d9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  "37b16886",
+  null,
   null
   
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "examples/pages/tabs/examples/AddCloseTab.vue"
+component.options.__file = "examples/pages/table/examples/TablePaginationDemo.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************!*\
-  !*** ./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************/
+/***/ "./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************!*\
+  !*** ./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCloseTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js??ref--12-0!../../../../node_modules/babel-loader/lib!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./AddCloseTab.vue?vue&type=script&lang=js& */ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCloseTab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TablePaginationDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js??ref--12-0!../../../../node_modules/babel-loader/lib!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./TablePaginationDemo.vue?vue&type=script&lang=js& */ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TablePaginationDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=template&id=37b16886&scoped=true&":
-/*!*************************************************************************************************!*\
-  !*** ./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=template&id=37b16886&scoped=true& ***!
-  \*************************************************************************************************/
+/***/ "./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=template&id=368365d9&":
+/*!**********************************************************************************************!*\
+  !*** ./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=template&id=368365d9& ***!
+  \**********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_202b8e62_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCloseTab_vue_vue_type_template_id_37b16886_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"202b8e62-vue-loader-template"}!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./AddCloseTab.vue?vue&type=template&id=37b16886&scoped=true& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"202b8e62-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=template&id=37b16886&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_202b8e62_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCloseTab_vue_vue_type_template_id_37b16886_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_4ad5309e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TablePaginationDemo_vue_vue_type_template_id_368365d9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4ad5309e-vue-loader-template"}!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./TablePaginationDemo.vue?vue&type=template&id=368365d9& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"4ad5309e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=template&id=368365d9&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_4ad5309e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TablePaginationDemo_vue_vue_type_template_id_368365d9___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_202b8e62_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCloseTab_vue_vue_type_template_id_37b16886_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_4ad5309e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TablePaginationDemo_vue_vue_type_template_id_368365d9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each.js */ "./node_modules/core-js/modules/web.dom-collections.for-each.js");
-/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
-/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.filter.js */ "./node_modules/core-js/modules/es.array.filter.js");
-/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.slice.js */ "./node_modules/core-js/modules/es.array.slice.js");
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0__);
 
-
-
+//
+//
+//
 //
 //
 //
@@ -100,72 +97,81 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "AddCloseTab",
+  name: "TablePaginationDemo",
   data: function data() {
     return {
-      editableTabsValue: "1",
-      editableTabs: [{
-        name: "1",
-        title: "Tab 1",
-        content: "Tab 1 content"
+      tableData: [{
+        date: '2016-05-01',
+        name: '张三',
+        address: '北京朝阳区财富中心 1室'
+      }, {
+        date: '2016-05-02',
+        name: '张三',
+        address: '北京朝阳区财富中心 2室'
+      }, {
+        date: '2016-05-03',
+        name: '张三',
+        address: '北京朝阳区财富中心 3室'
+      }, {
+        date: '2016-05-04',
+        name: '张三',
+        address: '北京朝阳区财富中心 4室'
+      }, {
+        date: '2016-05-05',
+        name: '张三',
+        address: '北京朝阳区财富中心 5室'
+      }, {
+        date: '2016-05-06',
+        name: '张三',
+        address: '北京朝阳区财富中心 6室'
+      }, {
+        date: '2016-05-07',
+        name: '张三',
+        address: '北京朝阳区财富中心 7室'
+      }, {
+        date: '2016-05-08',
+        name: '张三',
+        address: '北京朝阳区财富中心 8室'
+      }, {
+        date: '2016-05-09',
+        name: '张三',
+        address: '北京朝阳区财富中心 9室'
+      }, {
+        date: '2016-05-10',
+        name: '张三',
+        address: '北京朝阳区财富中心 10室'
+      }, {
+        date: '2016-05-11',
+        name: '张三',
+        address: '北京朝阳区财富中心 11室'
+      }, {
+        date: '2016-05-12',
+        name: '张三',
+        address: '北京朝阳区财富中心 12室'
       }],
-      menus: [{
-        command: "debug",
-        label: "快捷调试"
-      }, {
-        command: "ADD",
-        label: "创建接口"
-      }, {
-        command: "CLOSE_ALL",
-        label: "关闭所有标签"
-      }]
+      currentPage: 1,
+      pageSize: 5,
+      total: 0
     };
   },
   methods: {
-    handleCommand: function handleCommand(name, obj) {
-      if (obj.command === "CLOSE_ALL") {
-        this.editableTabs = [];
-        this.editableTabsValue = "";
-      } else {
-        this.editableTabs.push({
-          name: name,
-          title: obj.label,
-          content: "".concat(obj.label, " content"),
-          closable: true
-        });
-        this.editableTabsValue = name;
-      }
-    },
-    removeTab: function removeTab(targetName) {
-      var tabs = this.editableTabs;
-      var activeName = this.editableTabsValue;
-
-      if (activeName === targetName) {
-        tabs.forEach(function (tab, index) {
-          if (tab.name === targetName) {
-            var nextTab = tabs[index + 1] || tabs[index - 1];
-
-            if (nextTab) {
-              activeName = nextTab.name;
-            }
-          }
-        });
-      }
-
-      this.editableTabsValue = activeName;
-      this.editableTabs = tabs.filter(function (tab) {
-        return tab.name !== targetName;
-      });
+    search: function search() {
+      this.total = this.tableData.length;
+      var currentPage = this.currentPage,
+          pageSize = this.pageSize;
+      var start = (currentPage - 1) * pageSize;
+      var end = currentPage * pageSize;
+      this.data = this.tableData.slice(start, end);
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"202b8e62-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=template&id=37b16886&scoped=true&":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"202b8e62-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/tabs/examples/AddCloseTab.vue?vue&type=template&id=37b16886&scoped=true& ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"4ad5309e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=template&id=368365d9&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4ad5309e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/table/examples/TablePaginationDemo.vue?vue&type=template&id=368365d9& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -181,30 +187,44 @@ var render = function() {
     "div",
     [
       _c(
-        "fu-tabs",
-        {
-          attrs: { addable: "", addType: "dropdown", dropdownMenus: _vm.menus },
-          on: { command: _vm.handleCommand, "tab-remove": _vm.removeTab },
-          model: {
-            value: _vm.editableTabsValue,
-            callback: function($$v) {
-              _vm.editableTabsValue = $$v
-            },
-            expression: "editableTabsValue"
-          }
-        },
-        _vm._l(_vm.editableTabs, function(item) {
-          return _c(
-            "el-tab-pane",
-            {
-              key: item.name,
-              attrs: { label: item.title, name: item.name, closable: "" }
-            },
-            [_vm._v(" " + _vm._s(item.content) + " ")]
-          )
-        }),
+        "fu-table",
+        { attrs: { data: _vm.tableData } },
+        [
+          _c("el-table-column", { attrs: { type: "selection" } }),
+          _c("el-table-column", {
+            attrs: { prop: "date", label: "日期", "min-width": "180" }
+          }),
+          _c("el-table-column", {
+            attrs: { prop: "name", label: "姓名", "min-width": "180", fix: "" }
+          }),
+          _c("el-table-column", {
+            attrs: { prop: "address", label: "地址", show: false }
+          })
+        ],
         1
-      )
+      ),
+      _c("fu-table-pagination", {
+        attrs: {
+          "current-page": _vm.currentPage,
+          "page-size": _vm.pageSize,
+          total: _vm.total
+        },
+        on: {
+          "update:currentPage": function($event) {
+            _vm.currentPage = $event
+          },
+          "update:current-page": function($event) {
+            _vm.currentPage = $event
+          },
+          "update:pageSize": function($event) {
+            _vm.pageSize = $event
+          },
+          "update:page-size": function($event) {
+            _vm.pageSize = $event
+          },
+          change: _vm.search
+        }
+      })
     ],
     1
   )

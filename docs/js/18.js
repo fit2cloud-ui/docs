@@ -1,17 +1,17 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[18],{
 
-/***/ "./examples/pages/table/examples/ColumnDropdownSlotDemo.vue":
-/*!******************************************************************!*\
-  !*** ./examples/pages/table/examples/ColumnDropdownSlotDemo.vue ***!
-  \******************************************************************/
+/***/ "./examples/pages/steps/examples/StepsHooksDemo.vue":
+/*!**********************************************************!*\
+  !*** ./examples/pages/steps/examples/StepsHooksDemo.vue ***!
+  \**********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ColumnDropdownSlotDemo_vue_vue_type_template_id_0e679dca_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ColumnDropdownSlotDemo.vue?vue&type=template&id=0e679dca&scoped=true& */ "./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=template&id=0e679dca&scoped=true&");
-/* harmony import */ var _ColumnDropdownSlotDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ColumnDropdownSlotDemo.vue?vue&type=script&lang=js& */ "./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _ColumnDropdownSlotDemo_vue_vue_type_style_index_0_id_0e679dca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true& */ "./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true&");
+/* harmony import */ var _StepsHooksDemo_vue_vue_type_template_id_4cb33047_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./StepsHooksDemo.vue?vue&type=template&id=4cb33047&scoped=true& */ "./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=template&id=4cb33047&scoped=true&");
+/* harmony import */ var _StepsHooksDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StepsHooksDemo.vue?vue&type=script&lang=js& */ "./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _StepsHooksDemo_vue_vue_type_style_index_0_id_4cb33047_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true& */ "./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -22,89 +22,80 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _ColumnDropdownSlotDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ColumnDropdownSlotDemo_vue_vue_type_template_id_0e679dca_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ColumnDropdownSlotDemo_vue_vue_type_template_id_0e679dca_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _StepsHooksDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _StepsHooksDemo_vue_vue_type_template_id_4cb33047_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _StepsHooksDemo_vue_vue_type_template_id_4cb33047_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  "0e679dca",
+  "4cb33047",
   null
   
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "examples/pages/table/examples/ColumnDropdownSlotDemo.vue"
+component.options.__file = "examples/pages/steps/examples/StepsHooksDemo.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************!*\
-  !*** ./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************/
+/***/ "./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js??ref--12-0!../../../../node_modules/babel-loader/lib!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./ColumnDropdownSlotDemo.vue?vue&type=script&lang=js& */ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js??ref--12-0!../../../../node_modules/babel-loader/lib!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./StepsHooksDemo.vue?vue&type=script&lang=js& */ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true&":
-/*!****************************************************************************************************************************!*\
-  !*** ./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true& ***!
-  \****************************************************************************************************************************/
+/***/ "./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true&":
+/*!********************************************************************************************************************!*\
+  !*** ./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true& ***!
+  \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_style_index_0_id_0e679dca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-style-loader??ref--8-oneOf-1-0!../../../../node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--8-oneOf-1-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-3!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true& */ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true&");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_style_index_0_id_0e679dca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_style_index_0_id_0e679dca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_style_index_0_id_0e679dca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_style_index_0_id_0e679dca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_style_index_0_id_4cb33047_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-style-loader??ref--8-oneOf-1-0!../../../../node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--8-oneOf-1-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-3!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true& */ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_style_index_0_id_4cb33047_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_style_index_0_id_4cb33047_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_style_index_0_id_4cb33047_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_style_index_0_id_4cb33047_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=template&id=0e679dca&scoped=true&":
-/*!*************************************************************************************************************!*\
-  !*** ./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=template&id=0e679dca&scoped=true& ***!
-  \*************************************************************************************************************/
+/***/ "./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=template&id=4cb33047&scoped=true&":
+/*!*****************************************************************************************************!*\
+  !*** ./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=template&id=4cb33047&scoped=true& ***!
+  \*****************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a21571d_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_template_id_0e679dca_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0a21571d-vue-loader-template"}!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./ColumnDropdownSlotDemo.vue?vue&type=template&id=0e679dca&scoped=true& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"0a21571d-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=template&id=0e679dca&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a21571d_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_template_id_0e679dca_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_369c0096_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_template_id_4cb33047_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"369c0096-vue-loader-template"}!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./StepsHooksDemo.vue?vue&type=template&id=4cb33047&scoped=true& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"369c0096-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=template&id=4cb33047&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_369c0096_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_template_id_4cb33047_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a21571d_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColumnDropdownSlotDemo_vue_vue_type_template_id_0e679dca_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_369c0096_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StepsHooksDemo_vue_vue_type_template_id_4cb33047_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -132,47 +123,93 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "ColumnDropdownSlotDemo",
+  name: "StepsHooksDemo",
   data: function data() {
     return {
-      checkList: [],
-      tableData: [{
-        id: 1,
-        date: "2016-05-01",
-        name: "张三",
-        address: "北京朝阳区财富中心 0室"
-      }, {
-        id: 2,
-        date: "2016-05-02",
-        name: "张三",
-        address: "北京朝阳区财富中心 1室"
-      }, {
-        id: 3,
-        date: "2016-05-01",
-        name: "张三",
-        address: "北京朝阳区财富中心 2室"
-      }, {
-        id: 4,
-        date: "2016-05-03",
-        name: "张三",
-        address: "北京朝阳区财富中心 3室"
-      }]
+      validateCluster: false,
+      ruleForm: {
+        name: ""
+      },
+      rules: {
+        name: [{
+          required: true,
+          message: "请输入名称",
+          trigger: "blur"
+        }]
+      },
+      loading: false
     };
   },
   methods: {
-    // 取消操作
-    cancel: function cancel(index) {
-      this.$refs.tableDrop.hide(index);
+    submitForm: function submitForm() {
+      var bool;
+      this.$refs["ruleForm"].validate(function (valid) {
+        if (valid) {
+          bool = true;
+        } else {
+          bool = false;
+        }
+      });
+      return bool;
+    },
+    beforeLeave: function beforeLeave(_ref, forward) {
+      var _this = this;
+
+      var id = _ref.id,
+          title = _ref.title,
+          index = _ref.index;
+      console.log(forward);
+
+      if (index === 0) {
+        // 第一步校验
+        if (this.submitForm()) {
+          // 校验成功
+          if (this.validateCluster !== true) {
+            // 异步校验，5秒后校验通过
+            setTimeout(function () {
+              _this.validateCluster = true;
+              _this.loading = false; // 重新触发beforeLeave，但是validateCluster已经为true
+
+              _this.$refs.steps.next();
+            }, 3000);
+            this.loading = true;
+            console.log(id + "异步校验执行中，需要loading"); // 校验通过前先返回false
+
+            return false;
+          } else {
+            console.log(id + " 异步校验通过");
+            return true;
+          }
+        } else {
+          return false;
+        }
+      }
+
+      if (id === "network") {
+        console.log(title + " 异步校验通过");
+        return true; // 同步校验, 返回true
+      }
+
+      if (id === "storage") {
+        console.log(index + " 异步校验通过"); // 同步校验, 返回undefined
+      } // return true;
+
+    },
+    beforeActive: function beforeActive(_ref2) {
+      var id = _ref2.id,
+          title = _ref2.title,
+          index = _ref2.index;
+      console.log(index + "激活前");
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"0a21571d-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=template&id=0e679dca&scoped=true&":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0a21571d-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=template&id=0e679dca&scoped=true& ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"369c0096-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=template&id=4cb33047&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"369c0096-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=template&id=4cb33047&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -188,107 +225,75 @@ var render = function() {
     "div",
     [
       _c(
-        "fu-table",
-        { attrs: { data: _vm.tableData, "local-key": "TableDoc" } },
+        "fu-steps",
+        {
+          ref: "steps",
+          attrs: {
+            "finish-status": "success",
+            beforeLeave: _vm.beforeLeave,
+            isLoading: _vm.loading
+          }
+        },
         [
-          _c("el-table-column", { attrs: { type: "selection" } }),
-          _c("fu-table-column-dropdown", {
-            ref: "tableDrop",
-            attrs: { showType: "always", width: "auto" },
-            scopedSlots: _vm._u([
-              {
-                key: "icon",
-                fn: function() {
-                  return [
-                    _c("i", { staticClass: "el-icon-setting" }, [
-                      _vm._v("自定义")
-                    ])
-                  ]
-                },
-                proxy: true
-              },
-              {
-                key: "title",
-                fn: function() {
-                  return [
-                    _c("div", { staticClass: "example-title" }, [
-                      _vm._v("自定义标题")
-                    ])
-                  ]
-                },
-                proxy: true
-              },
-              {
-                key: "default",
-                fn: function(scope) {
-                  return [
+          _c("fu-step", { attrs: { id: "cluster", title: "第1步" } }, [
+            _c(
+              "div",
+              { staticClass: "example" },
+              [
+                _c(
+                  "el-form",
+                  {
+                    ref: "ruleForm",
+                    attrs: {
+                      "label-width": "80px",
+                      model: _vm.ruleForm,
+                      rules: _vm.rules
+                    }
+                  },
+                  [
                     _c(
-                      "div",
-                      { staticClass: "example" },
+                      "el-form-item",
+                      { attrs: { label: "名称", prop: "name" } },
                       [
-                        _c(
-                          "el-checkbox-group",
-                          {
-                            model: {
-                              value: _vm.checkList,
-                              callback: function($$v) {
-                                _vm.checkList = $$v
-                              },
-                              expression: "checkList"
-                            }
-                          },
-                          [
-                            _c("el-checkbox", { attrs: { label: "复选框 A" } }),
-                            _c("el-checkbox", { attrs: { label: "复选框 B" } }),
-                            _c("el-checkbox", { attrs: { label: "复选框 C" } })
-                          ],
-                          1
-                        ),
-                        _c(
-                          "div",
-                          { staticClass: "example-button" },
-                          [
-                            _c(
-                              "el-button",
-                              { attrs: { type: "primary", size: "mini" } },
-                              [_vm._v("确认")]
-                            ),
-                            _c(
-                              "el-button",
-                              {
-                                attrs: {
-                                  type: "primary",
-                                  plain: "",
-                                  size: "mini"
-                                },
-                                nativeOn: {
-                                  click: function($event) {
-                                    return _vm.cancel(scope.$index)
-                                  }
-                                }
-                              },
-                              [_vm._v("取消")]
-                            )
-                          ],
-                          1
-                        )
+                        _c("el-input", {
+                          model: {
+                            value: _vm.ruleForm.name,
+                            callback: function($$v) {
+                              _vm.$set(_vm.ruleForm, "name", $$v)
+                            },
+                            expression: "ruleForm.name"
+                          }
+                        })
                       ],
                       1
                     )
-                  ]
-                }
-              }
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ]),
+          _c("fu-step", { attrs: { id: "network", title: "第2步" } }, [
+            _c("div", { staticClass: "example" }, [
+              _c("h1", [_vm._v("Step 2")])
             ])
-          }),
-          _c("el-table-column", {
-            attrs: { prop: "date", label: "日期", "min-width": "180" }
-          }),
-          _c("el-table-column", {
-            attrs: { prop: "name", label: "姓名", "min-width": "180" }
-          }),
-          _c("el-table-column", {
-            attrs: { prop: "address", label: "地址", "min-width": "300" }
-          })
+          ]),
+          _c(
+            "fu-step",
+            {
+              attrs: {
+                id: "storage",
+                title: "完成",
+                beforeActive: _vm.beforeActive
+              }
+            },
+            [
+              _c("div", { staticClass: "example" }, [
+                _c("h1", [_vm._v("完成")])
+              ])
+            ]
+          )
         ],
         1
       )
@@ -303,10 +308,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true&":
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-2!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true& ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-2!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -314,29 +319,29 @@ render._withStripped = true
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".example-title[data-v-0e679dca] {\n  color: #004a71;\n  text-align: center;\n  padding: 5px 0;\n}\n.example[data-v-0e679dca] {\n  padding: 10px 20px;\n  width: 125px;\n}\n.example .example-button[data-v-0e679dca] {\n    margin-top: 10px;\n}\n", ""]);
+exports.push([module.i, ".example[data-v-4cb33047] {\n  margin: 0 10%;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true&":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-style-loader??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-2!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-2!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--8-oneOf-1-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-3!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true& */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/table/examples/ColumnDropdownSlotDemo.vue?vue&type=style&index=0&id=0e679dca&lang=scss&scoped=true&");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--8-oneOf-1-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-3!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true& */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/steps/examples/StepsHooksDemo.vue?vue&type=style&index=0&id=4cb33047&lang=scss&scoped=true&");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! ../../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
-var update = add("5898504c", content, false, {"sourceMap":false,"shadowMode":false});
+var update = add("5c5e3e34", content, false, {"sourceMap":false,"shadowMode":false});
 // Hot Module Replacement
 if(false) {}
 

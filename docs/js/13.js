@@ -78,10 +78,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_16fe6fbc_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomResizer_vue_vue_type_template_id_2faa4890_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"16fe6fbc-vue-loader-template"}!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./CustomResizer.vue?vue&type=template&id=2faa4890&scoped=true& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"16fe6fbc-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/split-pane/examples/CustomResizer.vue?vue&type=template&id=2faa4890&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_16fe6fbc_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomResizer_vue_vue_type_template_id_2faa4890_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_7275a42e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomResizer_vue_vue_type_template_id_2faa4890_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7275a42e-vue-loader-template"}!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/cache-loader/dist/cjs.js??ref--0-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./CustomResizer.vue?vue&type=template&id=2faa4890&scoped=true& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"7275a42e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/split-pane/examples/CustomResizer.vue?vue&type=template&id=2faa4890&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_7275a42e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomResizer_vue_vue_type_template_id_2faa4890_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_16fe6fbc_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomResizer_vue_vue_type_template_id_2faa4890_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_7275a42e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomResizer_vue_vue_type_template_id_2faa4890_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -128,6 +128,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "CustomResizer",
   data: function data() {
@@ -138,9 +144,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"16fe6fbc-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/split-pane/examples/CustomResizer.vue?vue&type=template&id=2faa4890&scoped=true&":
+/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"7275a42e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./examples/pages/split-pane/examples/CustomResizer.vue?vue&type=template&id=2faa4890&scoped=true&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"16fe6fbc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/split-pane/examples/CustomResizer.vue?vue&type=template&id=2faa4890&scoped=true& ***!
+  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7275a42e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./examples/pages/split-pane/examples/CustomResizer.vue?vue&type=template&id=2faa4890&scoped=true& ***!
   \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -160,39 +166,44 @@ var render = function() {
         "div",
         { staticClass: "demo-split" },
         [
-          _c(
-            "fu-split-pane",
-            {
-              attrs: {
-                left: "200",
-                direction: "horizontal",
-                "resizer-style": { width: "10px" }
-              }
+          _c("fu-split-pane", {
+            attrs: {
+              left: "200",
+              direction: "horizontal",
+              "resizer-style": { width: "10px" }
             },
-            [
-              _c(
-                "div",
-                {
-                  staticStyle: { "padding-right": "5px" },
-                  attrs: { slot: "left" },
-                  slot: "left"
+            scopedSlots: _vm._u([
+              {
+                key: "left",
+                fn: function() {
+                  return [
+                    _c("div", { staticStyle: { "padding-right": "5px" } }, [
+                      _vm._v(" Left ")
+                    ])
+                  ]
                 },
-                [_vm._v(" Left ")]
-              ),
-              _c("div", { attrs: { slot: "resizer" }, slot: "resizer" }, [
-                _c("i", { staticClass: "el-icon-d-caret" })
-              ]),
-              _c(
-                "div",
-                {
-                  staticStyle: { "padding-left": "5px" },
-                  attrs: { slot: "right" },
-                  slot: "right"
+                proxy: true
+              },
+              {
+                key: "resizer",
+                fn: function() {
+                  return [_c("i", { staticClass: "el-icon-d-caret" })]
                 },
-                [_vm._v(" Right ")]
-              )
-            ]
-          )
+                proxy: true
+              },
+              {
+                key: "right",
+                fn: function() {
+                  return [
+                    _c("div", { staticStyle: { "padding-left": "5px" } }, [
+                      _vm._v(" Right ")
+                    ])
+                  ]
+                },
+                proxy: true
+              }
+            ])
+          })
         ],
         1
       ),
@@ -201,33 +212,40 @@ var render = function() {
         "div",
         { staticClass: "demo-split" },
         [
-          _c(
-            "fu-split-pane",
-            {
-              attrs: {
-                top: "50%",
-                direction: "vertical",
-                "resizer-style": { height: "10px" }
-              }
+          _c("fu-split-pane", {
+            attrs: {
+              top: "50%",
+              direction: "vertical",
+              "resizer-style": { height: "10px" }
             },
-            [
-              _c("div", { attrs: { slot: "top" }, slot: "top" }, [
-                _vm._v(" Top ")
-              ]),
-              _c("div", { attrs: { slot: "resizer" }, slot: "resizer" }, [
-                _c("i", { staticClass: "el-icon-d-caret" })
-              ]),
-              _c(
-                "div",
-                {
-                  staticStyle: { "padding-top": "5px" },
-                  attrs: { slot: "bottom" },
-                  slot: "bottom"
+            scopedSlots: _vm._u([
+              {
+                key: "top",
+                fn: function() {
+                  return [_vm._v(" Top ")]
                 },
-                [_vm._v(" Bottom ")]
-              )
-            ]
-          )
+                proxy: true
+              },
+              {
+                key: "resizer",
+                fn: function() {
+                  return [_c("i", { staticClass: "el-icon-d-caret" })]
+                },
+                proxy: true
+              },
+              {
+                key: "bottom",
+                fn: function() {
+                  return [
+                    _c("div", { staticStyle: { "padding-top": "5px" } }, [
+                      _vm._v(" Bottom ")
+                    ])
+                  ]
+                },
+                proxy: true
+              }
+            ])
+          })
         ],
         1
       )
